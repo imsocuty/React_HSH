@@ -19,7 +19,7 @@ input,select,textarea,button {font-size:100%;vertical-align:middle}
     font-size: 18px;
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: #F0F2F2;
     background-color: rgba(255, 255, 255, 0);
     border: 0;
     outline: 0;
@@ -31,7 +31,7 @@ input,select,textarea,button {font-size:100%;vertical-align:middle}
 }
 
 .nav *{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .jb-wrap {
@@ -136,7 +136,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 }
 
 #preId {
-    background-color: rgb(150, 198, 217,0.4);
+    background-color: rgb(150, 198, 217,0.8);
     
 }
 
@@ -177,7 +177,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 
 #preId2 > div > div{
     text-align: center;
-    margin: 200px 0;
+    margin: 0px 0;
 }
 #preId2 > div > div > div{
     display: inline-block;
@@ -285,9 +285,23 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
     }
 }
 
-@media all and (max-width:1155px){
+@media all and (max-width:1500px){
     #preId11 .Basici{
         width: 50px; 
         height: 50px;
+    }
+}
+
+@media all and (max-width:1384px){
+    #preId11 .Basici{
+        width: 30px; 
+        height: 30px;
+    }
+}
+
+@media all and (max-width:1155px){
+    #preId11 .Basici{
+        width: 30px; 
+        height: 30px;
     }
 }
