@@ -232,6 +232,10 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
     height: 90px;
 }
 
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
 @media all and (max-width:1760px){
     .title {
         font-size: 3rem;
