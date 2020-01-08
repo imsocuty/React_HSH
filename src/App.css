@@ -136,12 +136,12 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 }
 
 #preId {
-    background-color: skyblue;
+    background-color: rgb(150, 198, 217,0.4);
     
 }
 
 #preId11 {
-    background-color:rgb(108,218, 178);
+    background-color:rgb(84, 161, 191,0.4);
 }
 #preId11 .Basic{
     padding: 50px 0;
@@ -166,7 +166,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
     font-weight: bold; 
 }
 #preId2 {
-    background-color: orange;
+    background-color: rgb(89, 168, 217, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,9 +186,8 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
 }
 
 #preId3 {
-    background-color: rgb(58, 57, 57);
+    background-color: rgba(65, 132, 191, 0.4);
 }
-
 #preId3 #ENG{
     font-size: 3rem;
     text-align: center;
@@ -197,6 +196,9 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
     color: whitesmoke;
     font-family: 고딕;
 }
+
+
+
 
 #preId3 #EMAIL{
     font-size: 1rem;
