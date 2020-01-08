@@ -12,11 +12,11 @@ input,select,textarea,button {font-size:100%;vertical-align:middle}
 .menu {
     position: fixed;
     top: 48%;
-    right: 0; width: 100px; height: 30px; 
+    right: 20px; width: 100px; height: 30px; 
     z-index: 100;
 }
 .nav {
-    font-size: 18px;
+    font-size: 22px;
     list-style: none;
     text-decoration: none;
     color: #F0F2F2;
@@ -33,6 +33,9 @@ input,select,textarea,button {font-size:100%;vertical-align:middle}
 .nav *{
     margin-bottom: 20px;
 }
+
+li.clear{clear:both}
+li.on{color: red}
 
 .jb-wrap {
     width: 100%;

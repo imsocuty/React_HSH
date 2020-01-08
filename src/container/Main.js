@@ -215,4 +215,9 @@ $(document).ready(function(){
 	changeText($("#title-text"),$(".title"),150);
 });
 
+$(function(){
+  $('li').click(function(){ $('li').removeClass()
+  $(this).addClass('on')})
+})
+
 export default Main;
