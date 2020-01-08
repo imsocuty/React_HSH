@@ -250,7 +250,16 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
     }
 }
 
-
+@media all and (max-width:1920px){
+    #preId .jb-wrap .jb-image{
+        width: 1400px; 
+        height: 950px;
+    }
+    #preId .jb-wrap .jb-image > p{
+        font-size: 1.7rem;
+        bottom: 30px;
+    }
+}
 @media all and (max-width:1663px){
     #preId .jb-wrap .jb-image{
         width: 1000px; 

@@ -16,7 +16,7 @@ class Main extends Component {
     return (
 
       <div className="main">
-        <div id="premain">
+        <div id="premain" class="scroll">
 	      </div>
         <div className="header-background">
 
@@ -36,8 +36,8 @@ class Main extends Component {
           </div>
           </div>
         </div>
-
-        <div id="preId">
+        
+        <div id="preId" class="">
 
           <div class="jb-wrap">
 
@@ -53,7 +53,7 @@ class Main extends Component {
           </div>
         </div>
 
-        <div id="preId11">
+        <div id="preId11" class="">
           <p class="Basic"> Basic   </p> <br/>
           
           <Image src= "https://i.imgur.com/Hkl9ITj.png" width="190" height="190" class="Basici" title="C"/> 
@@ -75,7 +75,7 @@ class Main extends Component {
 
 
 
-        <div id="preId2">
+        <div id="preId2" class="contInner">
           <div>
             <div>
               <div>
@@ -146,7 +146,7 @@ class Main extends Component {
           </div>
         </div>
  
-        <div id="preId3">
+        <div id="preId3" class="contInner">
 
           <p id="ENG"> I naver dreamed about success, I worked for it </p> 
           <br/><br/><br/>
@@ -158,6 +158,8 @@ class Main extends Component {
           <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
         </div>
       </div>
+
+
 
 
     )
@@ -211,9 +213,11 @@ function changeText(cont1,cont2,speed){
 	};
 		var Otimer=setInterval(show,speed);	
 };
+
 $(document).ready(function(){
 	changeText($("#title-text"),$(".title"),150);
 });
+
 
 $(function(){
   $('li').click(function(){ $('li').removeClass()
