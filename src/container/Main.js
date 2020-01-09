@@ -23,7 +23,7 @@ class Main extends Component {
 
           <div className="menu">
             <ul className="nav">
-              <li className="Home" id="moveBtn1">Intro</li>
+              <li className="Home" id="moveBtn1">INTRO</li>
               <li className="myself" id="moveBtn2">ABOUT</li>
               <li className="Skill" id="moveBtn3">SKILL</li>
               <li className="project" id="moveBtn4">PROJECT</li>
