@@ -44,7 +44,7 @@ class Main extends Component {
             <div class="jb-image">
               <Image src= "https://i.imgur.com/1BgwWRr.png"
                 align="left" vspace="30" hspace="10" class="intro"/>
-              <p> BLOG : <a href="http://kingsman5.tistory.com">kingsman5.tistory.com</a> | WEBSITE : <a href="http://www.clanfrs.com"> www.clanfrs.com</a> </p>
+              <p> BLOG : <a href="http://kingsman5.tistory.com" target="_black">kingsman5.tistory.com</a> | WEBSITE : <a href="http://www.clanfrs.com" target="_black"> www.clanfrs.com</a> </p>
             </div>
             
             <div class="jb-text">
@@ -82,7 +82,7 @@ class Main extends Component {
           <div>
             <div>
               <div>
-                <a href="https://github.com/imsocuty/Rock-paper-scissors"> <Image src=
+                <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black"> <Image src=
                     "https://i.imgur.com/3Pk8K1U.jpg"
                      class="project_img"/> </a>
                 <div>
@@ -92,7 +92,7 @@ class Main extends Component {
 
                   <h2> 개발 기간 </h2>
                   <p> 2017.11.25 ~ 2017.11.26 </p>
-                  <a href="https://github.com/imsocuty/Rock-paper-scissors"> 
+                  <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black"> 
                   <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>  
                 </div>
               </div>
@@ -100,7 +100,7 @@ class Main extends Component {
 
 
               <div>
-                <a href="https://github.com/imsocuty/Movie"><Image src=
+                <a href="https://github.com/imsocuty/Movie" target="_black"><Image src=
                   "https://i.imgur.com/Eu6rhlz.png"
                    class="project_img"/> </a>
                 <div>
@@ -110,7 +110,7 @@ class Main extends Component {
 
                   <h2> 개발 기간 </h2>
                   <p> 2019.08.25 ~ 2019.08.25 </p>
-                  <a href="https://github.com/imsocuty/Movie"> 
+                  <a href="https://github.com/imsocuty/Movie" target="_black"> 
                   <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
                 </div>
               </div>
@@ -118,7 +118,7 @@ class Main extends Component {
 
             <div>
               <div>
-                <a href="https://github.com/imsocuty/FPS"><Image src=
+                <a href="https://github.com/imsocuty/FPS" target="_black"><Image src=
                   "https://i.imgur.com/v7OdOkS.png"
                   class="project_img"/> </a>
                 <div>
@@ -136,7 +136,7 @@ class Main extends Component {
 
 
               <div>
-                <a href="https://github.com/imsocuty/TowerDefense"><Image src=
+                <a href="https://github.com/imsocuty/TowerDefense" target="_black"><Image src=
                   "https://i.imgur.com/OAOIiB0.png"
                   class="project_img"/> </a>
                 <div>
@@ -146,7 +146,7 @@ class Main extends Component {
 
                   <h2> 개발 기간 </h2>
                   <p> 2019.12.16 ~ 2019.12.19 </p>
-                  <a href="https://github.com/imsocuty/TowerDefense"> 
+                  <a href="https://github.com/imsocuty/TowerDefense" target="_black"> 
                   <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
                 </div>
               </div>
@@ -162,7 +162,7 @@ class Main extends Component {
           <p id="EMAIL2">ppppp4710@naver.com</p> <br/><br/><br/>
           <p id="EMAIL"> 연락처 </p>
           <p id="EMAIL2">010-9022-8199</p> <br/><br/><br/>
-          <a href="https://github.com/imsocuty?tab=repositories"> 
+          <a href="https://github.com/imsocuty?tab=repositories" target="_black"> 
           <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
         </div>
       </div>
