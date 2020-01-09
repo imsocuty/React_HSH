@@ -15,7 +15,6 @@ class Main extends Component {
   render() {
 
     return (
-
       <div className="main">
         <div id="premain" class="scroll">
         </div>
@@ -45,6 +44,7 @@ class Main extends Component {
         <Project />
         
         <Contact />
+
 
       </div>
 
