@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Header from "../component/Header";
-import Gnb from "../component/Gnb";
-//import Footer from "../component/Footer";
 import jQuery from "jquery";
 import $ from "jquery"
 import '../App.css';
 import Image from 'react-image'
+import About from './About';
+import Skill from './Skill';
+import Project from './Project';
+import Contact from './Contact';
 window.$ = window.jQuery = jQuery;
 
 class Main extends Component {
@@ -17,7 +18,7 @@ class Main extends Component {
 
       <div className="main">
         <div id="premain" class="scroll">
-	      </div>
+        </div>
         <div className="header-background">
 
           <div className="menu">
@@ -29,142 +30,22 @@ class Main extends Component {
               <li className="contact" id="moveBtn5">CONTACT</li>
             </ul>
           </div>
-        <div className="text-wrap">
-          <div className="text-box">
-          <p id="title-text">안녕하세요! 홍석현의 포트폴리오입니다.</p>
-          <p class="title"></p>
-          </div>
+          <div className="text-wrap">
+            <div className="text-box">
+              <p id="title-text">안녕하세요! 홍석현의 포트폴리오입니다.</p>
+              <p class="title"></p>
+            </div>
           </div>
         </div>
+
+        <About />
+
+        <Skill />
+
+        <Project />
         
-        <div id="preId" class="">
+        <Contact />
 
-          <div class="jb-wrap">
-
-            <div class="jb-image">
-              <Image src= "https://i.imgur.com/1BgwWRr.png"
-                align="left" vspace="30" hspace="10" class="intro"/>
-              <p> BLOG : <a href="http://kingsman5.tistory.com" target="_black">kingsman5.tistory.com</a> | WEBSITE : <a href="http://www.clanfrs.com" target="_black"> www.clanfrs.com</a> </p>
-            </div>
-            
-            <div class="jb-text">
-            
-            </div>
-          </div>
-        </div>
-
-        <div id="preId11" class="">
-          <p class="Basic"> Basic   </p> <br/>
-          <div>
-            <Image src= "https://i.imgur.com/Hkl9ITj.png" width="190" height="190" class="Basici" title="C"/> 
-            <Image src= "https://i.imgur.com/NZHCD9r.png" width="190" height="190" class="Basici" title="C#"/> 
-            <Image src= "https://i.imgur.com/1hZMpis.png" width="190" height="190" class="Basici" title="JAVA"/> 
-            <Image src= "https://i.imgur.com/42snnxa.png" width="190" height="190" class="Basici" title="JavaScript"/>   
-            <Image src= "https://i.imgur.com/CYsmYzI.png" width="190" height="190" class="Basici" title="Window"/> 
-            <Image src= "https://i.imgur.com/Q4khk7A.png" width="190" height="190" class="Basici" title="Linux"/>
-          </div>
-  
-          <p class="Intermediate"> Intermediate </p>
-          <div>
-            <Image src= "https://i.imgur.com/lLFbSjn.png" width="190" height="190" class="Basici" title="JSP"/> 
-            <Image src= "https://i.imgur.com/ovYkpUz.png" width="190" height="190" class="Basici" title="Mysql"/> 
-            <Image src= "https://i.imgur.com/0HXrAwV.png" width="250" height="190" class="Basici" title="Unity"/> 
-            <Image src= "https://i.imgur.com/HHPQN5k.png" width="190" height="190" class="Basici" title="React"/>   
-            <Image src= "https://i.imgur.com/3byEipA.png" width="190" height="190" class="Basici" title="Github"/> 
-            <Image src= "https://i.imgur.com/5TgK2mc.png" width="250" height="190" class="Basici" title="gnuboard"/>
-          </div>
-            
-        </div>
-
-
-
-        <div id="preId2" class="contInner">
-          <div>
-            <div>
-              <div>
-                <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black"> <Image src=
-                    "https://i.imgur.com/3Pk8K1U.jpg"
-                     class="project_img"/> </a>
-                <div>
-                  <h1> 회사키우기 </h1>
-
-                  <p> 컴퓨터와 가위바위보를 하며 회사를 성장시키는 CUI 게임 </p> <br/>
-
-                  <h2> 개발 기간 </h2>
-                  <p> 2017.11.25 ~ 2017.11.26 </p>
-                  <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black"> 
-                  <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>  
-                </div>
-              </div>
-
-
-
-              <div>
-                <a href="https://github.com/imsocuty/Movie" target="_black"><Image src=
-                  "https://i.imgur.com/Eu6rhlz.png"
-                   class="project_img"/> </a>
-                <div>
-                  <h1> 영화 관리 사이트 </h1>
-
-                  <p> JSP, MYSQL을 이용하여 로그인 기능이 구현된 영화 관리 사이트 </p> <br/>
-
-                  <h2> 개발 기간 </h2>
-                  <p> 2019.08.25 ~ 2019.08.25 </p>
-                  <a href="https://github.com/imsocuty/Movie" target="_black"> 
-                  <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div>
-                <a href="https://github.com/imsocuty/FPS" target="_black"><Image src=
-                  "https://i.imgur.com/v7OdOkS.png"
-                  class="project_img"/> </a>
-                <div>
-                  <h1> 1인칭 FPS </h1>
-
-                  <p> 유니티를 이용하여 개발한 1인칭 FPS 게임 </p> <br/>
-
-                  <h2> 개발 기간 </h2>
-                  <p> 2019.06.01 ~ 2019.06.30 </p>
-                  <a href="https://github.com/imsocuty/FPS"> 
-
-                  <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
-                </div>
-              </div>
-
-
-              <div>
-                <a href="https://github.com/imsocuty/TowerDefense" target="_black"><Image src=
-                  "https://i.imgur.com/OAOIiB0.png"
-                  class="project_img"/> </a>
-                <div>
-                  <h1> 3D 타워 디펜스 </h1>
-
-                  <p>  타워를 건설하여 지켜내는 3D 타워디펜스 게임 </p> <br/>
-
-                  <h2> 개발 기간 </h2>
-                  <p> 2019.12.16 ~ 2019.12.19 </p>
-                  <a href="https://github.com/imsocuty/TowerDefense" target="_black"> 
-                  <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
- 
-        <div id="preId3" class="contInner">
-
-          <p id="ENG"> I naver dreamed about success, I worked for it </p> 
-          <br/><br/><br/>
-          <p id="EMAIL">이메일</p>
-          <p id="EMAIL2">ppppp4710@naver.com</p> <br/><br/><br/>
-          <p id="EMAIL"> 연락처 </p>
-          <p id="EMAIL2">010-9022-8199</p> <br/><br/><br/>
-          <a href="https://github.com/imsocuty?tab=repositories" target="_black"> 
-          <Image src= "https://i.imgur.com/3byEipA.png" class="github"/> </a>
-        </div>
       </div>
 
 
@@ -208,36 +89,37 @@ $(document).ready(function () {
   })
 })
 
-function changeText(cont1,cont2,speed){
-	var Otext=cont1.text();
-	var Ocontent=Otext.split("");
-	var i=0;
-	function show(){
-		if(i<Ocontent.length)
-		{		
-			cont2.append(Ocontent[i]);
-			i=i+1;
-		};
-	};
-		var Otimer=setInterval(show,speed);	
+function changeText(cont1, cont2, speed) {
+  var Otext = cont1.text();
+  var Ocontent = Otext.split("");
+  var i = 0;
+  function show() {
+    if (i < Ocontent.length) {
+      cont2.append(Ocontent[i]);
+      i = i + 1;
+    };
+  };
+  var Otimer = setInterval(show, speed);
 };
 
-$(document).ready(function(){
-	changeText($("#title-text"),$(".title"),150);
+$(document).ready(function () {
+  changeText($("#title-text"), $(".title"), 150);
 });
 
 
-$(function(){
-  $('li').click(function(){ $('li').removeClass()
-  $(this).addClass('on')})
+$(function () {
+  $('li').click(function () {
+    $('li').removeClass()
+    $(this).addClass('on')
+  })
 })
 
-$('html, body').css({'overflow': 'hidden'});
-$('#element').on('scroll touchmove mousewheel', function(event) {
+$('html, body').css({ 'overflow': 'hidden' });
+$('#element').on('scroll touchmove mousewheel', function (event) {
   return false;
 });
 
-$(document).ready(function() {
-  $("html,body").animate({scrollTop: 0}, 100); //100ms for example
+$(document).ready(function () {
+  $("html,body").animate({ scrollTop: 0 }, 100); //100ms for example
 });
 export default Main;
