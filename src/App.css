@@ -30,7 +30,7 @@ input,select,textarea,button {font-size:100%;vertical-align:middle}
     
 }
 .nav .Home{
-    color: red;
+    color: black;
 }
 
 .nav *{
@@ -38,7 +38,7 @@ input,select,textarea,button {font-size:100%;vertical-align:middle}
 }
 
 li.clear{clear:#F0F2F2}
-li.on{color: red}
+li.on{color: black}
 
 .jb-wrap {
     width: 100%;
@@ -183,6 +183,7 @@ div#preId11 > div{
 }
 #preId2 > div{
     width: 100%;
+    font-size: 1.3rem;
 }
 
 #preId2 > div > div{
@@ -191,9 +192,9 @@ div#preId11 > div{
 }
 #preId2 > div > div > div{
     display: inline-block;
-    width: 40%;
+    width: 50%;
     text-align: left;
-    min-width: 780px;
+    min-width: 900px;
 }
 #preId2 > div > div > div > div{
     height: 100%;
@@ -201,8 +202,8 @@ div#preId11 > div{
 #preId2 .project_img{
     margin: 0;
     margin-right: 40px;
-    width: 500px;
-    height: 400px;
+    width: 700px;
+    height: 600px;
     float: left;
 }
 
@@ -214,7 +215,7 @@ div#preId11 > div{
     text-align: center;
     padding: 100px 0;
     font-weight: bold; 
-    color: whitesmoke;
+    color: rgb(78, 76, 76);
     font-family: 고딕;
 }
 
@@ -225,7 +226,7 @@ div#preId11 > div{
     font-size: 1rem;
     text-align: center;
     font-weight: bold; 
-    color: whitesmoke;
+    color:  rgb(78, 76, 76);
     font-family: 고딕;
 }
 #preId3 #EMAIL2{
@@ -318,22 +319,16 @@ body::-webkit-scrollbar {
         height: 70px;
     }
 }
-@media all and (max-width: 1780px){
-    #preId2 > div > div{
-        margin-left: 40px;
-        text-align: left;
-        margin-top: 0;
-        margin-bottom: 0;
+
+@media all and (max-width: 1920px){
+    #preId2 > div{
+        font-size: 0.8rem;
     }
     #preId2 .project_img{
-        width: 340px;
-        height: 200px;
-    }
-    #preId2 > div > div > div{
-        margin: 30px 0;
+        width: 400px;
+        height: 380px;
     }
 }
-
 @media all and (max-height: 1100px){
     #preId2 > div > div{
         margin-left: 40px;
@@ -341,31 +336,31 @@ body::-webkit-scrollbar {
         margin-top: 0;
         margin-bottom: 0;
     }
-    #preId2 .project_img{
-        width: 340px;
-        height: 200px;
-    }
     #preId2 > div > div > div{
         margin: 10px 0;
     }
+    #preId2 .project_img{
+        width: 300px;
+        height: 200px;
+    }
 }
 
-@media all and (max-height: 1000px){
+@media all and (max-height: 960px){
     #preId2 > div > div{
         margin-left: 40px;
         text-align: left;
         margin-top: 0;
         margin-bottom: 0;
     }
-    #preId2 .project_img{
-        width: 340px;
-        height: 180px;
-    }
     #preId2 > div > div > div{
-        margin: 20px 0;
+        margin: 10px 0;
     }
     #preId2{
         font-size: 0.3rem;
+    }
+    #preId2 .project_img{
+        width: 280px;
+        height: 180px;
     }
 }
 @media all and (max-width:1500px){
