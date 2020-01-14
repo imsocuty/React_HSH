@@ -6,6 +6,7 @@
     "body-parser": "^1.19.0",
     "ejs": "^2.7.2",
     "express": "^4.17.1",
+    "express.js": "^1.0.0",
     "jquery": "^3.4.1",
     "rc-switch": "^1.9.0",
     "react": "^16.8.6",
@@ -15,14 +16,12 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.0.1",
     "switch": "0.0.0"
-    
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": "react-app"
