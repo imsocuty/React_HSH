@@ -15,7 +15,7 @@ class Project extends Component {
                 <div>
                     <div>
                         <div>
-                            <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black"> <Image src=
+                            <a href="https://github.com/imsocuty/JPASHOP" target="_black"> <Image src=
                                 "https://i.ibb.co/vk1jC8H/image.png"
                                 class="project_img" /> </a>
                             <div>
