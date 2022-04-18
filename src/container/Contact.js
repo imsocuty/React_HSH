@@ -12,7 +12,7 @@ class Contact extends Component {
 
             <div id="preId3" class="contInner">
 
-                <p id="ENG"> I naver dreamed about success, I worked for it </p>
+                <p id="ENG"> I never dreamed about success, I worked for it </p>
                 <br /><br /><br />
                 <p id="EMAIL">이메일</p>
                 <p id="EMAIL2">ppppp4710@naver.com</p> <br /><br /><br />
