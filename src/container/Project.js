@@ -16,15 +16,17 @@ class Project extends Component {
                     <div>
                         <div>
                             <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black"> <Image src=
-                                "https://i.imgur.com/3Pk8K1U.jpg"
+                                "https://i.ibb.co/vk1jC8H/image.png"
                                 class="project_img" /> </a>
                             <div>
-                                <h1> 회사키우기 </h1>
+                                <h1> SH SHOP </h1>
 
-                                <p> 컴퓨터와 가위바위보를 하며 회사를 성장시키는 CUI 게임 </p> <br />
+                                <p> 강습 참고하며 제작한 JPA & 스프링부트 웹사이트 </p> <br />
 
-                                <h2> 개발 기간 </h2>
-                                <p> 2017.11.25 ~ 2017.11.26 </p>
+                                <h2> 기술 스택 </h2>
+                                <p>SPRING</p>
+                                <p>H2 DB</p>
+                                <p>JPA</p>
                                 <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black">
                                     <Image src="https://i.imgur.com/3byEipA.png" class="github" /> </a>
                             </div>
