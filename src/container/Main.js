@@ -31,7 +31,7 @@ class Main extends Component {
           </div>
           <div className="text-wrap">
             <div className="text-box">
-              <p id="title-text">안녕하세요! 홍석현의 포트폴리오입니다.</p>
+              <p id="title-text">저는 웹개발자 홍석현 입니다.</p>
               <p class="title"></p>
             </div>
           </div>
