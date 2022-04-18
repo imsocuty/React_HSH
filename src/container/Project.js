@@ -27,7 +27,7 @@ class Project extends Component {
                                 <p>SPRING</p>
                                 <p>H2 DB</p>
                                 <p>JPA</p>
-                                <a href="https://github.com/imsocuty/Rock-paper-scissors" target="_black">
+                                <a href="https://github.com/imsocuty/JPASHOP" target="_black">
                                     <Image src="https://i.imgur.com/3byEipA.png" class="github" /> </a>
                             </div>
                         </div>
