@@ -15,7 +15,7 @@ class Skill extends Component {
                     <Image src= "https://i.ibb.co/pd9sZbN/spring-3-logo-png-transparent-removebg-preview.png" width="250" height="190" class="Basici" title="Spring"/>
                     <Image src= "https://i.imgur.com/HHPQN5k.png" width="190" height="190" class="Basici" title="React"/>
                     <Image src= "https://i.imgur.com/NZHCD9r.png" width="190" height="190" class="Basici" title="C#"/>
-                    <Image src= "https://i.imgur.com/0HXrAwV.png" width="250" height="190" class="Basici" title="Unity"/>
+                    <Image src= "https://i.ibb.co/DbtpRtJ/U-removebg-preview.png" width="250" height="190" class="Basici" title="Unity"/>
                     <Image src= "https://i.imgur.com/CYsmYzI.png" width="190" height="190" class="Basici" title="Window"/>
                     <Image src= "https://i.imgur.com/Q4khk7A.png" width="190" height="190" class="Basici" title="Linux"/>
                 </div>
