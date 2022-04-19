@@ -21,12 +21,10 @@ class Project extends Component {
                             <div>
                                 <h1> SH SHOP </h1>
 
-                                <p> 강습 참고하며 제작한 JPA & 스프링부트 웹사이트 </p> <br />
+                                <p> 강습 참고하며 제작한 JPA & 스프링부트 기반 웹사이트 </p> <br />
 
                                 <h2> 기술 스택 </h2>
-                                <p>SPRING</p>
-                                <p>H2 DB</p>
-                                <p>JPA</p>
+                                <p>SPRING, H2 DB, JPA</p>
                                 <a href="https://github.com/imsocuty/JPASHOP" target="_black">
                                     <Image src="https://i.imgur.com/3byEipA.png" class="github" /> </a>
                             </div>
