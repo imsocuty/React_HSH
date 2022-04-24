@@ -1,6 +1,5 @@
 import React from 'react';
 import jQuery from "jquery";
-import $ from "jquery"
 import '../App.css';
 import Image from 'react-image'
 window.$ = window.jQuery = jQuery;
