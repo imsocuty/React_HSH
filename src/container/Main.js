@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import jQuery from "jquery";
 import $ from "jquery"
 import '../App.css';
-import Image from 'react-image'
 import About from './About';
 import Skill from './Skill';
 import Project from './Project';
@@ -99,7 +98,7 @@ function changeText(cont1, cont2, speed) {
       i = i + 1;
     };
   };
-  var Otimer = setInterval(show, speed);
+  //var Otimer = setInterval(show, speed);
 };
 
 $(document).ready(function () {
