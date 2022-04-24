@@ -98,7 +98,7 @@ function changeText(cont1, cont2, speed) {
       i = i + 1;
     };
   };
-  var Otimer = setInterval(show, speed);
+   setInterval(show, speed);
 };
 
 $(document).ready(function () {
