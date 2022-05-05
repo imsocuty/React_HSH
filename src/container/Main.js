@@ -55,43 +55,43 @@ class Main extends Component {
 }
 $(document).ready(function () {
   $("#moveBtn1").on("click", function (event) {
-    var offset = $("#premain").offset();
+    let offset = $("#premain").offset();
     $('html, body').animate({ scrollTop: offset.top }, 1000);
   })
 })
 
 $(document).ready(function () {
   $("#moveBtn2").on("click", function (event) {
-    var offset = $("#preId").offset();
+    let offset = $("#preId").offset();
     $('html, body').animate({ scrollTop: offset.top }, 1000);
   })
 })
 
 $(document).ready(function () {
   $("#moveBtn3").on("click", function (event) {
-    var offset = $("#preId11").offset();
+    let offset = $("#preId11").offset();
     $('html, body').animate({ scrollTop: offset.top }, 1000);
   })
 })
 
 $(document).ready(function () {
   $("#moveBtn4").on("click", function (event) {
-    var offset = $("#preId2").offset();
+    let offset = $("#preId2").offset();
     $('html, body').animate({ scrollTop: offset.top }, 1000);
   })
 })
 
 $(document).ready(function () {
   $("#moveBtn5").on("click", function (event) {
-    var offset = $("#preId3").offset();
+    let offset = $("#preId3").offset();
     $('html, body').animate({ scrollTop: offset.top }, 1000);
   })
 })
 
 function changeText(cont1, cont2, speed) {
-  var Otext = cont1.text();
-  var Ocontent = Otext.split("");
-  var i = 0;
+  let Otext = cont1.text();
+  let Ocontent = Otext.split("");
+  let i = 0;
   function show() {
     if (i < Ocontent.length) {
       cont2.append(Ocontent[i]);
