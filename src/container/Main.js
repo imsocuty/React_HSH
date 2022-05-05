@@ -89,12 +89,12 @@ $(document).ready(function () {
 })
 
 function changeText(cont1, cont2, speed) {
-  let Otext = cont1.text();
-  let Ocontent = Otext.split("");
+  let sText = cont1.text();
+  let sContent = sText.split("");
   let i = 0;
   function show() {
-    if (i < Ocontent.length) {
-      cont2.append(Ocontent[i]);
+    if (i < sContent.length) {
+      cont2.append(sContent[i]);
       i = i + 1;
     };
   };
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
 
 $(function () {
-  $('li').click(function () {
+  $('li').click( ()=> {
     $('li').removeClass()
     $(this).addClass('on')
   })
